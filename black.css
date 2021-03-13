@@ -1,0 +1,17 @@
+:root{
+    --mainColor: rgba(5, 5, 5, 0.87);
+    --minorColor: #ffffff;
+    --borderColor: #f8f4f4; 
+    --mainText: rgb(255, 255, 255);
+    --minorText: rgb(0, 0, 0);
+    --themeBorder: #17181ac9;
+    --previewColor:rgba(94, 94, 92, 0.664);
+    --previewShadow:rgba(218, 210, 210, 0.877);
+    --nav-wrapper-color: rgba(5, 5, 5, 0.87);
+    --nav-wrapper-color-used:rgba(201, 192, 192, 0.685);
+    --middle-about-grid:rgba(12, 12, 12, 0.979);
+    --preview-border:rgb(255, 255, 255);
+    --contact-background: rgb(82,80,80);
+    --contact-background2: linear-gradient(0deg, rgba(82,80,80,0.5130427170868348) 0%, rgba(255,254,251,0.5886729691876751) 60%);
+--colorForProjectsAndAbout: white;
+    }

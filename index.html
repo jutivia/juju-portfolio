@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Juju's page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+     
+    
+ <link  rel='stylesheet' type='text/css' media='screen' href='default.css'>
+ <link id="theme.style" rel='stylesheet' type='text/css' media='screen' href="">
+
+</head>
+<body>
+   <!--this part is for the navigation bar-->
+    <section class= "s1">
+       <div id= "first-section">
+        <div class= "main-container">
+            <div class="nav-wrapper">
+                <a href=#home>
+                <div class="left-nav"> 
+                    
+                   <div class="circle" id="circle1"></div>
+                   <div class="circle" id="circle2"></div>
+                   <div class="circle" id="circle3"></div>
+               
+                </div> 
+            </a>
+                <div class="right-nav"> 
+                   <ul id="navigation">
+                       <li> <a style="color:var(--minorText);" href="#about-wrapper" class="links"> About </a></li> 
+                       <li><a style="color:var(--minorText);" href="#project-wrappers" class="links"> Projects </a></li> 
+                       <li><a style="color:var(--minorText);" href="#contact-wrappers" class="links"> Contact </a></li> 
+                
+                    </a>
+                  </ul>
+                </div> 
+              </div>
+            </div>
+       <div class="intro-wrapper"> 
+           
+           
+        <div class="left-column" id="home">
+            <div id="name">
+                <h1  style="color:var(--mainText);">Olajumoke <br> Boladale-Lawal</h1> 
+            </div>
+            <div id="shadow">
+                <div id="preview">
+                    <div id="corner-tl" class="corner"></div>
+                    <div id="corner-tr" class="corner"></div>
+                    <h3> Mobile Developer, Web Developer, Tech Enthusiast and Content Creator</h3>
+                    <p> write a little about yourself here. <br> Think about it for later </p>
+                    <div id="corner-bl" class="corner"></div>
+                    <div id="corner-br" class="corner"></div>
+                </div>
+            </div>
+            <div id= button-wrapper>
+               <a href=#about-wrapper> <div id="button1" class="button">Learn More</div> </a>
+               <a href="#contact-wrappers"><div id="button2"class="button"> Get in Touch</div>  </a> 
+            </div>
+        </div> 
+
+        <div class="right-column"> 
+            <img  id="profile-pics" src="images/jujux.jpg">
+            <h5 style="text-align:center; line-height:0;color :var(--minorColor)"> 
+                Personalized Theme</h5>
+                <div id="theme-wrapper">
+                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                    <div data-mode="pink" id="pink-mode" class="theme-dot" ></div>
+                    <div data-mode="black" id="black-mode" class="theme-dot"></div>
+                </div>
+                <p id="theme-settings"> *Theme settings would be saved for <br>your next visit*</p><br><br>
+            
+        </div> 
+        
+       </div>
+    </div>
+    </section>
+
+    <section >
+        <div class= "main-container">
+            <div id="about-wrapper">
+               <div id="about-intro-wrapper">
+                 <h1 style="color:var(--colorForProjectsAndAbout); margin-top:0;"><br>About</h1> 
+               <p style="color:var(--colorForProjectsAndAbout)"> Hey there... <br>
+            write a few stuff about myself...<br>
+        also insert resume link</p>
+              </div> <br>
+              <!--css hates me :(-->
+              <div class="about-works-wrapper" >
+                  <div class="another-works-wrapper">
+                  <div class="works" id="web">
+                    <img src="images/icons8-web-100.png">
+                      <h3 style="padding:5px 10px;color:black">Web Developer</h3>
+                      <p>about it and framewoks</p>
+                      </div>
+                  <div class="works" id="mobile">
+                      <br>
+                    <img src="images/icons8-ios-development-80 (1).png">
+                      <h3 style="padding:5px 10px; color:white;">Mobile Developer</h3>
+                    <p>about it and framewoks</p>
+                  </div>
+                  <div class="works" id="content"><br>
+                    <img src="images/icons8-content-100.png" style="height:20%;">
+                    <h3 style="padding:0px 10px; color:black">Content Creator</h3>
+                    <p>about it and framewoks</p>
+                  </div>
+                 </div>
+              </div> 
+              <br><br>
+            </div>
+           
+        </div>
+    </section>
+
+    <section>
+        <div class= "main-container" id="project-wrappers">
+            <div class="project-wrapper">
+               <h1 style="margin-top:0; padding:40px; color:var(--colorForProjectsAndAbout);"> Projects</h1>
+            </div>
+        </div>
+    </section>
+
+     <section class= "s3" id="contact-wrappers">
+         
+        <div class= "contact-wrapper">
+            <div class= "s4">
+            <div class="intro-contact-wrapper">
+                <h1 >Get In Touch</h1>
+                <p> If you want to get in touch, talk to me about a project collaboration or just say hi,<br>
+                fill up the form below or send an email to <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=km#inbox"><span style="font-weight:bolder;">rukkylaw.tl@gmail.com</span></a></p>
+                <br><br>
+                </div>
+                <form>
+                   <input type="text" id="text" placeholder="Fill with your name"><br><br>
+                    <textarea size=id="contact-text-area" placeholder="write your message"></textarea><br><br>
+                    <button class="contact-buttons"> Submit your message</button>
+                </form><br><br><br>
+                <h3>Let's get social</h3>
+                <p>Follow my pages on Twitter, GitHub and Linkedin </p>  
+                <div id="social-wrapper">
+                   <a> <div class="socials" id="twitter"><img src="images/twitter.png">Twitter</div></a>
+                   <a> <div class="socials" id="github"><img src="images/github.png">GitHub</div> </a>
+                   <a> <div class="socials" id="linkedin"><img src="images/linkedin.png">Linkedin</div>  </a>
+                    <br><br>      
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src='main.js'></script>
+</body>
+</html>
