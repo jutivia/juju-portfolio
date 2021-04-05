@@ -16,6 +16,25 @@
  <link  rel='stylesheet' type='text/css' media='screen' href='default.css'>
  <link id="theme.style" rel='stylesheet' type='text/css' media='screen' href="">
 
+ <script src="jquery-3.6.0.min.js"></script>
+ <script>
+ $("document").ready(function(){
+        
+  $("#forms").submit(function(){
+    var test={
+        id: "preplaced",
+        
+    }
+    var $div = $("<div>", test);
+        $div.html("<h2>Thank you for getting in touch with me.<br></h2><h5> Kindly check your email for a response from me<br><br></h5>")
+
+    $("#replaced").html($div);
+
+  });
+
+})
+</script>
+
 </head>
 <body>
    <!--this part is for the navigation bar-->
@@ -131,28 +150,32 @@
          
         <div class= "contact-wrapper">
             <div class= "s4">
+                <div id="replaced">
             <div class="intro-contact-wrapper">
                 <h1 >Get In Touch</h1>
                 <p> If you want to get in touch, talk to me about a project collaboration or just say hi,<br>
                 fill up the form below or send an email to <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=km#inbox"><span style="font-weight:bolder;">rukkylaw.tl@gmail.com</span></a></p>
                 <br><br>
                 </div>
-                <form>
-                   <input type="text" id="text" placeholder="Fill with your name"><br><br>
-                    <textarea size=id="contact-text-area" placeholder="write your message"></textarea><br><br>
-                    <button class="contact-buttons"> Submit your message</button>
+                <form name="myForm" id="forms" action="/contact" method="POST" onSubmit="return mailMe(this.form)">
+                   <input type="text" id="text" name="inputbox1" placeholder="fill with your name" required><br><br>
+                   <input type="email" id="email"  name="inputbox2" placeholder="enter your email address" required ><br><br>
+                    <input type="text" id="contact-text-area"  name="inputbox3" placeholder="write your message"></textarea><br><br>
+                    <input type="submit" id="contacts" class="contact-buttons">
+                </div>
                 </form><br><br><br>
                 <h3>Let's get social</h3>
                 <p>Follow my pages on Twitter, GitHub and Linkedin </p>  
                 <div id="social-wrapper">
-                   <a> <div class="socials" id="twitter"><img src="images/twitter.png">Twitter</div></a>
-                   <a> <div class="socials" id="github"><img src="images/github.png">GitHub</div> </a>
-                   <a> <div class="socials" id="linkedin"><img src="images/linkedin.png">Linkedin</div>  </a>
+                   <a target="_blank" href="https://twitter.com/JujuTheBlessed"> <div class="socials" id="twitter"><img src="images/twitter.png">Twitter</div></a>
+                   <a target="_blank" href="https://github.com/jutivia"> <div class="socials" id="github"><img src="images/github.png">GitHub</div> </a>
+                   <a href="https://www.linkedin.com/in/olajumoke-boladale-lawal-b650a09b/" target="_blank"> <div class="socials" id="linkedin"><img src="images/linkedin.png">Linkedin</div>  </a>
                     <br><br>      
                 </div>
             </div>
         </div>
     </section>
     <script src='main.js'></script>
+   
 </body>
 </html>

@@ -1,19 +1,21 @@
-:root{
-    --mainColor: #fff5ee;
-    --minorColor: #412830;
-    --borderColor: rgba(131, 118, 118, 0.562); 
-    --mainText: rgb(49, 43, 43);
-    --minorText: rgb(255, 255, 255);
-    --themeBorder: #46353a;
-    --previewColor:rgba(241, 241, 224, 0.795);
-    --previewShadow:#a18581c0;
-    --nav-wrapper-color: #fff5ee;
-    --nav-wrapper-color-used:#cf8a82c7;
-    --middle-about-grid:#36486bef;
-    --preview-border:rgb(49, 92, 104);
-    --contact-background: rgb(138,51,53);
---contact-background2:linear-gradient(0deg, rgba(138,51,53,0.5130427170868348) 0%, rgba(251,255,253,0.5886729691876751) 60%);
---colorForProjectsAndAbout: rgb(49, 43, 43);
-    }
-
-    
+:root {
+  --mainColor: #fff5ee;
+  --minorColor: #412830;
+  --borderColor: rgba(131, 118, 118, 0.562);
+  --mainText: rgb(49, 43, 43);
+  --minorText: rgb(255, 255, 255);
+  --themeBorder: #46353a;
+  --previewColor: rgba(216, 216, 215, 0.562);
+  --previewShadow: #9c7974c0;
+  --nav-wrapper-color: #fff5ee;
+  --nav-wrapper-color-used: #bd918cc7;
+  --middle-about-grid: #36486bef;
+  --preview-border: rgb(49, 92, 104);
+  --contact-background: rgb(138, 51, 53);
+  --contact-background2: linear-gradient(
+    0deg,
+    rgba(138, 51, 53, 0.5130427170868348) 0%,
+    rgba(251, 255, 253, 0.5886729691876751) 60%
+  );
+  --colorForProjectsAndAbout: rgb(49, 43, 43);
+}

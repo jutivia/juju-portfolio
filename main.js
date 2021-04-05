@@ -32,3 +32,27 @@ else if(mode=="black"){
 }
 localStorage.setItem('theme', mode)
 }
+
+const form= document.querySelector('form')
+form.addEventListener('submit', event=>{
+    event.preventDefault();
+    console.log("submit")
+})
+
+function mailMe(form){
+    message=document.myForm.inputbox3.value;
+    clientName=document.myForm.inputbox1.value;
+    clientEmail=document.myForm.inputbox2.value;
+ 
+    let formdata=[];
+    
+    while (formdata.length>=0){
+    formdata.push(message);
+    formdata.push(clientName);
+    formdata.push(clientEmail);
+return formdata;
+  
+    
+    }
+    console.log(dataset);
+}
